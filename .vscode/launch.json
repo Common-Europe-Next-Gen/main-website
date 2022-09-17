@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "runtimeExecutable": "/home/brobbrecht/.local/bin/Polypane-10.0.1_45701c1180624539e4449e67a32048dd.AppImage",
+            "runtimeArgs": ["http://localhost:3000"],
+            "name": "Tina CMS",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "yarn: dev"
+        }
+    ]
+}
